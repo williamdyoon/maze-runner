@@ -30,7 +30,7 @@ class DemoBox extends Component {
     // renderer
     var renderer = new THREE.WebGLRenderer();
 
-    renderer.setSize(window.innerWidth / 2, window.innerHeight / 2);
+    renderer.setSize(window.innerWidth / 1.5, window.innerHeight / 1.5);
     this.mount.appendChild(renderer.domElement);
 
     // geometry object: width, height, length
