@@ -1,22 +1,29 @@
 .gridContainer {
-	display: grid;
-	grid-template-columns: repeat(10, 1fr);
-	grid-template-rows: repeat(10, 1fr);
-	grid-column-gap: 0px;
-	grid-row-gap: 0px;
-	column-gap: 0px;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  column-gap: 0px;
+  width: 80vw;
+  height: 80vh;
 }
-
 
 .grid {
-	border: 3px solid black;
-	height:3em;
-	width:3em
+  border: 3px solid black;
+  height: 10fr;
+  width: 10fr;
+  /* margin: 100px 0 0; */
+}
+/* changed from gridColor to gridNodeColor */
+.gridNodeColor {
+  border: 3px solid black;
+  height: 10fr;
+  width: 10fr;
+  background-color: red;
 }
 
-.gridColor {
-	border: 3px solid black;
-	height:3em;
-	width:3em;
-	background-color: red;
+#board {
+  margin-left: 5px;
+  margin-right: 5px;
 }
