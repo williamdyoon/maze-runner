@@ -10,7 +10,7 @@
  */
 
 import React, { Component } from 'react';
-import Demo from './Demo';
+import DemoBox from './DemoBox';
 
 class App extends Component {
   constructor(props) {
@@ -21,7 +21,7 @@ class App extends Component {
     return (
       <div>
         <h1>🔥🔥🔥 3JS 🔥🔥🔥</h1>
-        <Demo />
+        <DemoBox />
       </div>
     );
   }
