@@ -24,7 +24,7 @@ class App extends Component {
       <div>
         <h3>hello</h3>
         <DemoMaterial />
-        {/* <Canvas /> */}
+        <Canvas />
         <MainContainer />
         {/* <DemoMaterial /> */}
       </div>

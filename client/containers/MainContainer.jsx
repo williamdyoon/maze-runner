@@ -40,7 +40,7 @@ class MainContainer extends Component {
       }
       // console.log('id', id
     });
-    console.log('grid:', grid);
+    // console.log('grid:', grid);
     return <div className="gridContainer">{grid}</div>;
   }
 }
